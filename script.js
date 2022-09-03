@@ -96,6 +96,31 @@ document.write(myArray4);
 // 3,4,ahmed,ayaz,university
 
 
+// Function
+
+document.write(sum(5 , 10))
+function sum(a = null , b = Null){
+    let sum = a+b;
+    return sum;
+}
+
+// Output :
+// 15
+
+document.write("<br>")
+
+// Function in a VARIABLE
+
+let a = function sum(a = null , b = Null){
+    let sum = a+b;
+    return sum;
+}
+document.write(a(5, 47))
+
+// Output:
+// 52
+
+
 
 
 
