@@ -78,7 +78,22 @@ document.write(myArray3)
 // 1,2,Ayaz,3,4
 
 
+// Reverse , Splice , Sort 
 
+let myArray4 = ["ahmed" , "ayaz" , 3 , 4]
+myArray4.reverse();
+document.write(myArray4);
+document.write("<br>");
+myArray4.splice(0 , 0 , "university");
+document.write(myArray4);
+document.write("<br>");
+myArray4.sort();
+document.write(myArray4);
+
+// Output :
+// 4,3,ayaz,ahmed
+// university,4,3,ayaz,ahmed
+// 3,4,ahmed,ayaz,university
 
 
 
