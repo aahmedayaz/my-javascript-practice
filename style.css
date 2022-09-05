@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,42 +10,29 @@ html , body {
 }
 
 
-#container-1{
+.main-div{
     width: 500px;
-    height: 500px;
-    background-color: rgb(31, 0, 51);
+    height: auto;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#container-2{
-    width: 200px;
-    background-color: white;
-    height: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.main-div > div {
+    background-color: rgb(31, 0, 51);
+    border: 1px solid white;
+    border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh /3);
+    width: 100%;
 }
 
-button{
-    background-color: rgb(255, 255, 0);
-    border : none;
-    margin: 10px 0px;
-    height: 100%;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-button:hover{
-    cursor: pointer;
-    transform: scale(1.4);
-    transition: 0.1s all ease-in-out;
-}
 
 
 
