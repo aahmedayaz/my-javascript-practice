@@ -19,6 +19,6 @@
 ```
 **Main Points**
   - You store function into a variable
-  - No ```diff Function ``` keyword
+  - No ```Function ``` keyword
   - No return keyword
   - No curly braces {}
