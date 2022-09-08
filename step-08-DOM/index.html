@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+        }
+        button{
+            padding: 15px 35px;
+            background-color: rgb(42, 0, 82);
+            color: white;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="father">
+        <div id = "son-1">Son 1</div>
+        <div id="son-2">
+            <h1>Grandon - 1</h1>
+            <div id="grandson">
+                <h2>Grandson - 2</h2>
+            </div>
+        </div>
+        <div id="son-3">
+
+        </div>
+    </div>
+    <button onclick="changeContent()">Change</button>
+    <button onclick="goback()">Go Back</button>
+    <script src="./script.js"></script>
+</body>
+</html>
