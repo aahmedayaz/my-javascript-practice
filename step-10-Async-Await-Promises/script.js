@@ -13,7 +13,7 @@ let posts = [
 // Asynchronous 
 
 let a = () => {
-    console.log("Funcction A");
+    console.log("Function A");
     setTimeout(()=> {
         posts.forEach((post) => {
             document.write(`${post.title}` + "</br>")
@@ -32,6 +32,17 @@ let b = (callback) => {
 }
 b(a);
 
+// Output:
+// ----- After 10 seconds -----
+// Push Done
+// Function A   
+// Callback Done
+// ---- Again After 10 Seconds ----
+// Post One
+// Post Two
+// Post Three
+
+
 
 // Promises
 
@@ -46,3 +57,51 @@ promise1.then((text) => {
 .catch((text) => {
     console.log(text);
 })
+
+// Output:
+// Hello
+
+
+//  Async / Await
+
+async function sum(a,b){
+   return a*b;
+}
+
+console.log(sum(10,3));
+
+// Output :
+// Promise { 30 }
+
+
+async function print(text){
+    console.log(text + " 1");
+    await console.log(text + " 2");
+    console.log(text + " 3");
+}
+
+console.log(print("Before"));
+
+console.log("After 1");
+console.log("After 2");
+
+
+// Output:
+// Before 1
+// Before 2
+// Promise { <pending> }
+// After 1
+// After 2
+// Before 3
+
+
+
+
+
+
+
+
+
+
+
+
